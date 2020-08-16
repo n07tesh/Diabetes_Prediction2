@@ -16,7 +16,7 @@ classifier = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
 
-@app.route('/',methods=['GET'])
+@app.route('/')
 def home():
 	return render_template('index.html')
 
