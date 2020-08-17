@@ -26,3 +26,4 @@ Werkzeug==1.0.1
 wincertstore==0.2
 wrapt==1.11.2
 pandas==0.25
+gunicorn==49.6.0
